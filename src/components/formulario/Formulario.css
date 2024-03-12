@@ -1,0 +1,51 @@
+/* Formulario.css */
+.forms {
+    background-image: url(/img/fondoForm.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white; 
+  }
+  
+  .forms h3 {
+    text-align: center;
+  }
+  
+  .forms form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .forms form input[type="text"],
+  .forms form input[type="radio"] {
+    margin-bottom: 20px;
+    padding: 5px;
+    
+  }
+  
+  .forms form button {
+    color: azure;
+    margin-top: 10px;
+    width: 50%;
+    background-color: #430404;
+    cursor: pointer;
+    align-self: center
+  
+  }
+  
+
+  .ubicacion {
+   margin-left: 60px;
+
+
+
+   
+  }
+ 

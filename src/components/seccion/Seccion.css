@@ -1,0 +1,19 @@
+.seccion {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .seccion h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .seccion p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
