@@ -1,6 +1,6 @@
 /* Formulario.css */
 .forms {
-    background-image: url(/img/fondoForm.png);
+    background-image: url(../../assets/img/fondoForm.png);
     background-size: cover;
     background-position: center;
     max-width: 400px;
