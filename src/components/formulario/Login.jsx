@@ -1,5 +1,5 @@
 
-
+import Boton from '../../components/boton/Boton';
 import './Formulario.css'
 import React, { useState } from 'react';
 
@@ -16,10 +16,14 @@ export default function Formulario () {
        <form>
                           <input  type= "text"  placeholder="Ingresa tu mail" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                           <input  type= "text"  placeholder="Contraseña" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
-
-            <button>
-            <label htmlFor = "nombre">  Ingresar </label>
-            </button>
+                  
+                          <Boton className="boton" texto= "Ingresar" />
+                  
+                     
+                      
+                     
+           
+          
           
                 <p>Donde vivis: </p>
                  <div className='ubicacion'>
@@ -33,6 +37,7 @@ export default function Formulario () {
                   <input type="radio" id= "Otra Pcia" className='2' name="lugar" value="Otra Pcia" onChange={(e) => setLugar (e.target.value)}  />
                   <label htmlFor="">Otra Pcia</label>
                   </div>
+                 
  </form>
        </div>
 
