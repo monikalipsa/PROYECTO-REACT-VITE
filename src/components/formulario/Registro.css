@@ -26,31 +26,3 @@
     font-size: 15px;
     margin-top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-/* --------------------------responsive----------------------------- */
-
-@media only screen and (max-width: 800px) {
-    .formulario {
-        padding: 20px;
-    }
-
-    .input-field {
-        width: 90%;
-        margin-left: 15px;
-
-    }
-    label{
-        margin-left: 15px;
-    }
-
-
-}
