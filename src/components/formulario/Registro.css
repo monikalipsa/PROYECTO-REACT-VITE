@@ -1,6 +1,6 @@
-.registrarme{
+.registrarme {
     background-image: url(../../assets/img/fondoForm.png);
-    background-size: cover;
+  background-size: cover;
   background-position: center;
   max-width: 400px;
   margin: 0 auto;
@@ -10,19 +10,55 @@
   margin-top: 30px;
   margin-bottom: 30px;
   color: white; 
-}
-.registrarme h3 {
+  }
+  
+  .registrarme h3 {
     text-align: center;
   }
-
-  .input-field {
-    width: 100%;
-    padding: 5px;
+  
+  .registrarme form {
+    margin-top: 20px;
+  }
+  
+  .registrarme form div {
     margin-bottom: 10px;
-}
+  }
+  
+  .registrarme form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registrarme form input[type="text"],
+  .registrarme form input[type="tel"],
+  .registrarme form input[type="email"],
+  .registrarme form input[type="password"],
+  .registrarme form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f7f3f3;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .registrarme form select {
+    cursor: pointer;
+  }
+  
+  .registrarme form .input-field {
+    width: calc(100% - 2px);
+  }
+  
+  .registrarme form .boton {
+    margin-top: 30px;
 
-.error-message {
-    color: rgb(255, 234, 0);
-    font-size: 15px;
-    margin-top: 5px;
+  }
+  .boton{
+      align-self: center ; 
+
+width: 50%;
+cursor: pointer;
+text-align: center;
+
+
 }

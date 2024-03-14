@@ -32,7 +32,7 @@ function App() {
 {/* ___________________________________________________________ */}
               <Route path="/ingresar" element ={<Ingresar/> } />
               <Route path="/registrarme" element ={<Registrarme/> } />
-
+               
          
 
           </Routes>     

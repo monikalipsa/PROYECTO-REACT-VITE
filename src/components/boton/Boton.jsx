@@ -9,7 +9,7 @@
      }
      return (
          <div className="contenedor-btn">
-             <buton className="boton" style={estilosBoton} onClick={props.onClick}> {props.texto} </buton>
+             <button className="boton" style={estilosBoton} onClick={props.onClick}> {props.texto} </button>
          </div>
      )
  }

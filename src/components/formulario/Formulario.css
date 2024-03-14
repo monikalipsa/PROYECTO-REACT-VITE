@@ -1,4 +1,4 @@
-/* Formulario.css */
+
 .forms {
   background-image: url(../../assets/img/fondoForm.png);
   background-size: cover;
@@ -10,7 +10,7 @@
   border-radius: 8px;
   margin-top: 30px;
   margin-bottom: 30px;
-  color: white; 
+  color: rgb(9, 0, 0); 
 }
 
 .forms h3 {
@@ -28,16 +28,6 @@
   margin-bottom: 20px;
   padding: 5px;
   
-}
-
-.boton{
-margin-left: 120px;
-width: 30%;
-cursor: pointer;
-text-align: center;
-align-self: center ; 
-
-
 }
 
 

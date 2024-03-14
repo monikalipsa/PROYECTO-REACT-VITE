@@ -17,7 +17,7 @@ export default function Formulario () {
                           <input  type= "text"  placeholder="Ingresa tu mail" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                           <input  type= "text"  placeholder="Contraseña" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                   
-                          <Boton className="boton" texto= "Ingresar" />                      
+                          <Boton className="ing" color="pink"  texto= "Ingresar" />                      
           
                 <p>Donde vivis: </p>
 
