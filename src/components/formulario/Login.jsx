@@ -4,9 +4,12 @@ import "./Formulario.css";
 import React, { useState } from 'react';
 
 
-export default function Formulario () {
+function Ingreso () {
   const [nombre, setNombre] = useState ("");
  const [lugar, setLugar] = useState ("");
+
+ const handlerClicBoton = () => {
+  alert('INGRESANDO');}
   return (
       <>
      
@@ -17,7 +20,7 @@ export default function Formulario () {
                           <input  type= "text"  placeholder="Ingresa tu mail" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                           <input  type= "text"  placeholder="Contraseña" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                   
-                          <Boton className="ing" color="pink"  texto= "Ingresar" />                      
+                          <Boton className="ing" color="pink"  texto= "Ingresar" onClick={handlerClicBoton}/>                      
           
                 <p>Donde vivis: </p>
 
@@ -41,3 +44,4 @@ export default function Formulario () {
 
   );
 }
+export default Ingreso;

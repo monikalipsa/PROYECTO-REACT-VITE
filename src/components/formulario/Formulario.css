@@ -1,5 +1,8 @@
 
 .forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(../../assets/img/fondoForm.png);
   background-size: cover;
   background-position: center;
@@ -11,7 +14,11 @@
   margin-top: 30px;
   margin-bottom: 30px;
   color: rgb(9, 0, 0); 
+
+
 }
+
+
 
 .forms h3 {
   text-align: center;
@@ -30,12 +37,12 @@
   
 }
 
-
+.boton{
+  margin-left: 100px;
+  margin-left: 100px;
+}
 
 .ubicacion {
  margin-left: 80px;
 
-
-
- 
 }

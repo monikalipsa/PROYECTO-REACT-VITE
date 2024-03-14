@@ -9,7 +9,7 @@
   border-radius: 8px;
   margin-top: 30px;
   margin-bottom: 30px;
-  color: white; 
+  color: rgb(10, 0, 0); 
   }
   
   .registrarme h3 {
@@ -54,11 +54,10 @@
 
   }
   .boton{
-      align-self: center ; 
-
 width: 50%;
 cursor: pointer;
 text-align: center;
+margin-left: 90px;
 
 
 }
