@@ -1,6 +1,6 @@
 
 import Boton from '../../components/boton/Boton';
-import './Formulario.css'
+import "./Formulario.css";
 import React, { useState } from 'react';
 
 
@@ -17,15 +17,10 @@ export default function Formulario () {
                           <input  type= "text"  placeholder="Ingresa tu mail" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                           <input  type= "text"  placeholder="Contraseña" id= "nombre"   name="nombre"  value={nombre}   onChange={(e) => setNombre (e.target.value)}/>
                   
-                          <Boton className="boton" texto= "Ingresar" />
-                  
-                     
-                      
-                     
-           
-          
+                          <Boton className="boton" texto= "Ingresar" />                      
           
                 <p>Donde vivis: </p>
+
                  <div className='ubicacion'>
 
 

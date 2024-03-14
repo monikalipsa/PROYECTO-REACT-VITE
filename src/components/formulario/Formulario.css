@@ -1,50 +1,51 @@
 /* Formulario.css */
 .forms {
-    background-image: url(../../assets/img/fondoForm.png);
-    background-size: cover;
-    background-position: center;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 30px;
-    border: 1px solid #f3ebeb;
-    border-radius: 8px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white; 
-  }
-  
-  .forms h3 {
-    text-align: center;
-  }
-  
-  .forms form {
-    display: flex;
-    flex-direction: column;
-   
-  }
-  
-  .forms form input[type="text"],
-  .forms form input[type="radio"] {
-    margin-bottom: 20px;
-    padding: 5px;
-    
-  }
+  background-image: url(../../assets/img/fondoForm.png);
+  background-size: cover;
+  background-position: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #f3ebeb;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white; 
+}
 
- .boton{
+.forms h3 {
+  text-align: center;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.forms form input[type="text"],
+.forms form input[type="radio"] {
+  margin-bottom: 20px;
+  padding: 5px;
+  
+}
+
+.boton{
 margin-left: 120px;
 width: 30%;
 cursor: pointer;
-align-self: center  
-  
- }
-  
+text-align: center;
+align-self: center ; 
 
 
-  .ubicacion {
-   margin-left: 80px;
+}
 
 
 
-   
-  }
+.ubicacion {
+ margin-left: 80px;
+
+
+
  
+}

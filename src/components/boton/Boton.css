@@ -27,6 +27,8 @@
 .boton span{
     position: absolute;
     display: block;
+   
+
 }
 .boton span:nth-child(){
     top: 0;
