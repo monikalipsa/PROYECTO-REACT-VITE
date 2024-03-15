@@ -13,9 +13,18 @@ function ListaProductos(){
                 tema = {producto.tema}
                 precio = {producto.precio} 
                 imagen ={producto.imagen}
+                capacidad ={producto.capacidad}
+                material ={producto.material}
+                altura ={producto.altura}
+                ancho ={producto.ancho}
+                profundidad ={producto.profundidad}
+
+                
 
                 />
+                
             ))}
+            
            </div>
       )
 
