@@ -56,11 +56,11 @@ import Footer from './components/footer/Footer';
 import Seccion from './components/seccion/Seccion';
 import ListaCasas from './components/casas/ListaCasas';
 import Menu from './components/menu/Menu';
-import Escuela from './components/escuela/Escuela';
+import Productos from './components/productos/ListaProductos';
 import Artistica from './components/artistica/Artistica';
-// import Galeria from './components/galeria/Galeria';
 import Ingresar from './components/formulario/Login';
 import Registrarme from './components/formulario/Registro';
+import ListaProductos from './components/productos/ListaProductos';
 
 function App() {
   return (
@@ -71,10 +71,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Seccion />} />
           <Route path="/home" element={<Seccion />} />
-          <Route path="/escuela" element={<Escuela />} />
+          <Route path="/productos" element={<ListaProductos />} />
           <Route path="/artistica" element={<Artistica />} />
-          <Route path="/tecnica" element={<ListaCasas />} />
-     
+          <Route path="/tecnica" element={<ListaCasas />} />    
           <Route path="/ingresar" element={<Ingresar />} />
           <Route path="/registrarme" element={<Registrarme />} />
         </Routes>
