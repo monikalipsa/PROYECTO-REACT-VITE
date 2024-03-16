@@ -3,9 +3,14 @@
 
 
 .header {
+  background-image: url(../../assets/img/black.jpg); 
+ background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
 }
 
 h2{
@@ -22,19 +27,19 @@ h2{
 
 .registro ul li {
   margin-right: 10px;
-  padding-right: 20px; /* Añadir espacio entre las palabras y la línea vertical */
-  position: relative; /* Establecer posición relativa para que la línea vertical sea relativa al elemento li */
+  padding-right: 20px; 
+  position: relative; 
 }
 
 .registro ul li:last-child {
   margin-right: 0;
-  padding-right: 0; /* Eliminar espacio extra en el último elemento */
+  padding-right: 0; 
 }
 
 .registro ul li a {
-  color: white; /* Cambiar el color del texto a blanco */
-  text-decoration: none; /* Quitar subrayado de los enlaces si lo deseas */
-  font-family: 'Roboto', sans-serif; /* Cambiar la tipografía */
+  color: white; 
+  text-decoration: none; 
+  font-family: 'Roboto', sans-serif; 
 }
 
 .registro ul li::after {
@@ -43,7 +48,7 @@ h2{
   top: 0;
   right: 0;
   height: 100%;
-  width: 2px; /* Grosor de la línea vertical */
+  width: 2px; 
   
 }
 
@@ -53,6 +58,6 @@ h2{
   top: 0;
   right: 0;
   height: 100%;
-  width: 2px; /* Grosor de la línea vertical */
-  background-color: rgb(242, 238, 238); /* Color de la línea vertical */
+  width: 2px; 
+  background-color: rgb(242, 238, 238); 
 }

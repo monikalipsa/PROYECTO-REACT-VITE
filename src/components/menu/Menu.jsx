@@ -12,8 +12,7 @@ const Menu = () => {
                <li><Link to= "/home">Home</Link></li>
                <li><Link to= "/mochilas"> Mochilas </Link></li>
                <li><Link to= "/artistica">Artística</Link></li>
-               <li><Link to= "/tecnica"> Técnica </Link></li>
-               <li><Link to= "/insumos">Galeria</Link></li>
+            
                
            </ul>
            

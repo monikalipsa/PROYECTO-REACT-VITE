@@ -1,4 +1,4 @@
-const productos = [
+const producto = [
 
 
     {    nombre: 'Mochila',
@@ -46,19 +46,8 @@ altura: '45 cm',
 ancho: '30 cm',
 profundidad: '17 cm',  
 },
-{      nombre: 'Mochila Espalda Footy Smile',
-colores: 'Rosa, azul y verde',
-tema: 'PaFooty Smile',
-precio: '$ 59.200',
-imagen: 'smile',
-capacidad: '12l',
-material:'Poliester y tela',
-altura: '46 cm',
-ancho: '30 cm',
-profundidad: '15 cm',  
-},
-   
+
 
 ];
 
-export default productos;
+export default producto;

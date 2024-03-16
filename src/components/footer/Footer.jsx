@@ -10,7 +10,7 @@ import whatsapp from '../../assets/img/whatsapp.png'
 function Footer(){
     return(
         <footer className='footer'>
-             <p>Derechos Reservados a Berlin</p>
+             <p>Derechos Reservados a Isateo</p>
              <img  class name ="facebook"   src= {facebook} alt=""/>
              <img  class name ="instagram"   src= {instagram} alt=""/>
              <img  class name ="twiter"   src= {twiter} alt=""/>
