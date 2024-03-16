@@ -16,6 +16,8 @@ function ListaArtisticas(){
                 unidades ={artistica.unidades}
                 tipo ={artistica.tipo}
                 modelo ={artistica.modelo}
+                stock ={artistica.stock}
+                codigo ={artistica.codigo}
 
                 />
             ))}

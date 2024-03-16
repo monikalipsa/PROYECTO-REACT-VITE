@@ -18,6 +18,8 @@ function ListaProductos(){
                 altura ={producto.altura}
                 ancho ={producto.ancho}
                 profundidad ={producto.profundidad}
+                stock ={producto.stock}
+              codigo ={producto.codigo}
 
                 
 

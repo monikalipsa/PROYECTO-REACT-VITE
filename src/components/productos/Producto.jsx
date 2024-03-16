@@ -44,6 +44,8 @@ function Producto(props) {
                     <h4>ALTURA: {props.altura}</h4>
                     <h4>ANCHO: {props.ancho}</h4>
                     <h4>PROFUNDIDAD: {props.profundidad}</h4>
+                    <h4>STOCK: {props.stock}</h4>
+                    <h4>Codico: {props.codigo}</h4>
                        
                     </div>
                 </div>

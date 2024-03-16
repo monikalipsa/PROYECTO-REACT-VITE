@@ -43,6 +43,8 @@ function Artistica(props) {
                     <h4>UNIDADES: {props.unidades}</h4>
                     <h4>TIPO: {props.tipo}</h4>
                     <h4>MODELO: {props.modelo}</h4>
+                    <h4>STOCK: {props.stock}</h4>
+                    <h4>CODIGO: {props.codigo}</h4>
                     
 
                     

@@ -7,7 +7,9 @@ const artistica = [
          tipo: 'Colores frios',
          imagen: 'art1',
          unidades: '24',
-         modelo: 'Supersoft'
+         modelo: 'Supersoft',
+         stock:'Sin Stock', 
+         codigo:'LFC-1156'
     
        
     },
@@ -18,7 +20,9 @@ const artistica = [
     tipo: 'Punta Pincel',
     imagen: 'art2',
     unidades: '10',
-    modelo: 'Fudenosuke'
+    modelo: 'Fudenosuke',
+    stock:'Si', 
+    codigo:'MTW-1809'
 
   
 },
@@ -28,8 +32,9 @@ precio: '$ 6.200',
 tipo: 'Punta Redonda',
 imagen: 'art3',
 unidades: '12',
-modelo: 'Maped Jungle'
-
+modelo: 'Maped Jungle',
+stock:'Si', 
+codigo:'fm-1113'
 
 },
 
