@@ -1,6 +1,8 @@
 .seccion {
     background-color: #e8cccc;
     width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-size: cover;
     background-position: center;
     padding: 20px;
